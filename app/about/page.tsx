@@ -7,9 +7,9 @@ const ptSerif = PT_Serif({
 
 export default function About() {
   return (
-    <div className="space-y-4">
-      <div className="flex  gap-4 mt-8 text-left">
-        <div className="space-y-4 max-w-[650px]">
+    <div className="space-y-4 p-2">
+      <div className="gap-4 mt-8 text-left md:block lg:flex ">
+        <div className="space-y-4 w-[650px] max-w-full">
           <h2 className={`text-3xl ${ptSerif.className}`}>About</h2>
           <p>
             Kieran Sukachevin is an artist, illustrator, and comic artist
@@ -51,8 +51,8 @@ export default function About() {
       {/* Divider */}
       <div className="h-[1px] w-full bg-gray-400" />
 
-      <div className="flex  gap-4 mt-8 text-left">
-        <div className="space-y-4 max-w-[650px]">
+      <div className="gap-4 mt-8 text-left md:block lg:flex">
+        <div className="space-y-4 w-[650px] max-w-full">
           <h2 className={`text-3xl ${ptSerif.className}`}>Contact</h2>
           <a href="mailto:kieran.sukachevin@gmail.com">
             kieran.sukachevin@gmail.com
