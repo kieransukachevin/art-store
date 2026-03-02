@@ -38,6 +38,11 @@ export default function About() {
             <strong>2025 - </strong>
             <i>Capitola Makers Market,</i> Capitola, CA
           </p>
+          <h2 className={`text-2xl ${ptSerif.className}`}>Showing</h2>
+          <p>
+            <strong>2026 - </strong>
+            <i>Artlands,</i> Redlands, CA
+          </p>
         </div>
         <Image
           src="/images/me.jpg"

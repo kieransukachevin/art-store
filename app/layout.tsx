@@ -37,13 +37,22 @@ export default function RootLayout({
             </Link>
           </div>
           <div className="gap-4 flex sm:flex-row md:flex-col">
-            <Link href="/" className="hover:text-gray-600">
+            <Link
+              href="/"
+              className="hover:text-gray-600 transition-all duration-100 cursor-pointer"
+            >
               Art
             </Link>
-            <Link href="/store" className="hover:text-gray-600">
+            <Link
+              href="/store"
+              className="hover:text-gray-600 transition-all duration-100 cursor-pointer"
+            >
               Store
             </Link>
-            <Link href="/about" className="hover:text-gray-600">
+            <Link
+              href="/about"
+              className="hover:text-gray-600 transition-all duration-100 cursor-pointer"
+            >
               About
             </Link>
           </div>
