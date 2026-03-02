@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { PT_Serif } from "next/font/google";
+import Divider from "../ui/divider";
 
 const ptSerif = PT_Serif({
   weight: ["400", "700"]
@@ -53,8 +54,7 @@ export default function About() {
         />
       </div>
 
-      {/* Divider */}
-      <div className="h-[1px] w-full bg-gray-400" />
+      <Divider />
 
       <div className="gap-4 mt-8 text-left md:block lg:flex">
         <div className="space-y-4 w-[650px] max-w-full">

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import { ButtonHTMLAttributes, useState } from "react";
+import { useState } from "react";
+import CloseButton from "./ui/close-button";
 
 export default function Home() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -162,7 +163,7 @@ function Overlay({
         className="p-10 w-screen h-screen fixed top-0 inset-0 bg-black/50 flex justify-center items-center"
         onClick={() => setSelectedImage(null)}
       >
-        <CloseButton />
+        <CloseButton className="h-12 fixed top-0 right-0" />
         <img
           className="max-w-full max-h-full object-contain"
           src={`/images/${image}.jpg`}
@@ -170,32 +171,5 @@ function Overlay({
         />
       </div>
     </dialog>
-  );
-}
-
-function CloseButton(buttonProps: ButtonHTMLAttributes<HTMLButtonElement>) {
-  return (
-    <div className="h-12 fixed top-0 right-0">
-      <button
-        id="close-button"
-        className="bg-transparent cursor-pointer z-100 w-12 h-12  rounded-full"
-        {...buttonProps}
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="#383838"
-          height="20px"
-          width="20px"
-          version="1.1"
-          viewBox="0 0 512 512"
-        >
-          <g>
-            <g>
-              <polygon points="512,59.076 452.922,0 256,196.922 59.076,0 0,59.076 196.922,256 0,452.922 59.076,512 256,315.076 452.922,512 512,452.922 315.076,256   " />
-            </g>
-          </g>
-        </svg>
-      </button>
-    </div>
   );
 }

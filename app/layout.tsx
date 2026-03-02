@@ -3,6 +3,7 @@ import { Geist, PT_Serif } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
+import Cart from "./ui/cart";
 
 const geistSerif = Geist({
   variable: "--font-geist-sans",
@@ -88,6 +89,8 @@ export default function RootLayout({
         </nav>
         <main className="flex-1 overflow-y-auto py-6 pr-10">{children}</main>
       </body>
+
+      <Cart />
     </html>
   );
 }
