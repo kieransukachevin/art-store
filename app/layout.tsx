@@ -32,7 +32,9 @@ export default function RootLayout({
           <div>
             <Link href="/">
               <h1 className={`text-3xl ${ptSerif.className}`}>
-                Kieran Sukachevin
+                Kieran
+                <br />
+                Sukachevin
               </h1>
             </Link>
           </div>
@@ -86,7 +88,7 @@ export default function RootLayout({
             </a>
           </div>
         </nav>
-        <main className="flex-1 overflow-y-auto py-6 pr-10">{children}</main>
+        <main className="flex-1 overflow-y-auto py-6 px-10">{children}</main>
       </body>
     </html>
   );
