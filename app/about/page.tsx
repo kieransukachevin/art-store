@@ -13,22 +13,21 @@ export default function About() {
         <div className="space-y-4 w-[650px] max-w-full">
           <h2 className={`text-3xl ${ptSerif.className}`}>About</h2>
           <p>
-            Kieran Sukachevin is an artist, illustrator, and comic artist
-            currently living in Southern California. Kieran has been doodling
-            his whole life and is still doodling to this day. He graduated from
-            Walla Walla University in 2022 with a minor in art, ready to take on
-            the world.
+            Kieran Sukachevin is an artist, illustrator, painter, and
+            independent printer currently living in Southern California. Kieran
+            has been doodling his whole life but began focusing seriously on
+            painting in 2022 after graduating from university.
           </p>
           <p>
-            Kieran is inspired by indie rock bands, 90s clothing styles, ligne
-            claire (French clear line), Russian children's book illustrations,
-            and button-up shirts that fit just right. He carries a sketchbook
-            wherever he goes to capture the moments and things that inspire him.
+            He is inspired by indie rock bands, 90s clothing styles, ligne
+            claire, Russian children's book illustrations, and button-up shirts
+            that fit just right. He carries a sketchbook wherever he goes to
+            capture the moments and scenes that show up in his work.
           </p>
           <p>
-            His art is cartoonish with a level of realism, childlike but subtle,
+            Hi art is cartoonish with a level of realism, childlike but subtle,
             imbued with nostalgia and specificity, and attempts to capture the
-            mundane but meaningful moments of life.{" "}
+            mundane but meaningful moments of life.
           </p>
           <h2 className={`text-2xl ${ptSerif.className}`}>Events</h2>
           <p>
