@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useAddCartItem } from "../controller/cart-store";
+import { cn } from "../ui/cn";
 
 export default function Store() {
   return (
@@ -54,10 +55,14 @@ function Item({
           <i>{description}</i>
         </p>
         <div className="flex justify-between items-center mt-4">
-          <p className="font-bold text-lg">{price}</p>
+          <p className="font-bold text-sm">{/* {price} */}coming soon</p>
           <button
-            className="cursor-pointer border-2 hover:border-gray-500/60 hover:text-gray-500 transition-all duration-100 border-gray-500 rounded-md p-2"
+            className={cn(
+              "cursor-pointer border-2 hover:border-gray-500/60 hover:text-gray-500 transition-all duration-100 border-gray-500 rounded-md p-2",
+              "disabled:opacity-50 disabled:cursor-not-allowed"
+            )}
             onClick={() => addItem({ id, name: title })}
+            disabled
           >
             Add to Cart
           </button>
