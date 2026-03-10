@@ -85,20 +85,19 @@ export default function Home() {
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
           <Image
-            id="surfing-guy"
-            src="/thumbnails/surfing-guy.jpg"
-            alt="Surfing Guy"
+            id="sunset-hike"
+            src="/thumbnails/sunset-hike.jpg"
+            alt="Sunset Hike"
             className="cursor-pointer"
             width={500}
             height={500}
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
-
           <Image
-            id="city"
-            src="/thumbnails/city.jpg"
-            alt="City"
+            id="surfing-guy"
+            src="/thumbnails/surfing-guy.jpg"
+            alt="Surfing Guy"
             className="cursor-pointer"
             width={500}
             height={500}
