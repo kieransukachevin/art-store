@@ -26,8 +26,19 @@ export default function Home() {
             src="/thumbnails/person-1.jpg"
             alt="Person 1"
             className="cursor-pointer"
-            width={300}
-            height={300}
+            width={250}
+            height={250}
+            tabIndex={0}
+            onClick={(e) => setSelectedImage(e.currentTarget.id)}
+          />
+
+          <Image
+            id="grandma-with-walker"
+            src="/thumbnails/grandma-with-walker.jpg"
+            alt="Grandma with Walker"
+            className="cursor-pointer"
+            width={500}
+            height={500}
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
@@ -42,22 +53,12 @@ export default function Home() {
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
           <Image
-            id="grandma-with-walker"
-            src="/thumbnails/grandma-with-walker.jpg"
-            alt="Grandma with Walker"
-            className="cursor-pointer"
-            width={500}
-            height={500}
-            tabIndex={0}
-            onClick={(e) => setSelectedImage(e.currentTarget.id)}
-          />
-          <Image
             id="campfire"
             src="/thumbnails/campfire.jpg"
             alt="Campfire"
             className="cursor-pointer"
-            width={500}
-            height={500}
+            width={400}
+            height={400}
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
@@ -79,8 +80,8 @@ export default function Home() {
             src="/thumbnails/tent.jpg"
             alt="Tent"
             className="cursor-pointer"
-            width={500}
-            height={500}
+            width={400}
+            height={400}
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
@@ -89,21 +90,12 @@ export default function Home() {
             src="/thumbnails/sunset-hike.jpg"
             alt="Sunset Hike"
             className="cursor-pointer"
-            width={500}
-            height={500}
+            width={750}
+            height={750}
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
-          <Image
-            id="surfing-guy"
-            src="/thumbnails/surfing-guy.jpg"
-            alt="Surfing Guy"
-            className="cursor-pointer"
-            width={500}
-            height={500}
-            tabIndex={0}
-            onClick={(e) => setSelectedImage(e.currentTarget.id)}
-          />
+
           <Image
             id="chickadee"
             src="/thumbnails/chickadee.jpg"
@@ -118,6 +110,16 @@ export default function Home() {
             id="brownie"
             src="/thumbnails/brownie.jpg"
             alt="Brownie"
+            className="cursor-pointer"
+            width={400}
+            height={400}
+            tabIndex={0}
+            onClick={(e) => setSelectedImage(e.currentTarget.id)}
+          />
+          <Image
+            id="surfing-guy"
+            src="/thumbnails/surfing-guy.jpg"
+            alt="Surfing Guy"
             className="cursor-pointer"
             width={500}
             height={500}
