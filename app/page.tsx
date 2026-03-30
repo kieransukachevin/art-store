@@ -6,6 +6,7 @@ import CloseButton from "./ui/close-button";
 export default function Home() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+  console.log("test");
   return (
     <>
       <div className="grid grid-cols-2 gap-2 w-full">
@@ -20,7 +21,16 @@ export default function Home() {
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
-
+          <Image
+            id="I-10"
+            src="/thumbnails/I-10.jpg"
+            alt="I-10"
+            className="cursor-pointer"
+            width={550}
+            height={550}
+            tabIndex={0}
+            onClick={(e) => setSelectedImage(e.currentTarget.id)}
+          />
           <Image
             id="person-1"
             src="/thumbnails/person-1.jpg"
@@ -37,8 +47,8 @@ export default function Home() {
             src="/thumbnails/grandma-with-walker.jpg"
             alt="Grandma with Walker"
             className="cursor-pointer"
-            width={500}
-            height={500}
+            width={400}
+            height={400}
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
@@ -57,24 +67,24 @@ export default function Home() {
             src="/thumbnails/campfire.jpg"
             alt="Campfire"
             className="cursor-pointer"
-            width={400}
-            height={400}
-            tabIndex={0}
-            onClick={(e) => setSelectedImage(e.currentTarget.id)}
-          />
-          <Image
-            id="drip"
-            src="/thumbnails/drip.jpg"
-            alt="Drip"
-            className="cursor-pointer"
-            width={500}
-            height={500}
+            width={350}
+            height={350}
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
         </div>
 
         <div className="flex flex-col gap-4  items-center">
+          <Image
+            id="glass-house"
+            src="/thumbnails/glass-house.jpg"
+            alt="Glass House"
+            className="cursor-pointer"
+            width={550}
+            height={550}
+            tabIndex={0}
+            onClick={(e) => setSelectedImage(e.currentTarget.id)}
+          />
           <Image
             id="tent"
             src="/thumbnails/tent.jpg"
@@ -107,6 +117,16 @@ export default function Home() {
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
           <Image
+            id="clothes"
+            src="/thumbnails/clothes.jpg"
+            alt="Clothes"
+            className="cursor-pointer"
+            width={550}
+            height={550}
+            tabIndex={0}
+            onClick={(e) => setSelectedImage(e.currentTarget.id)}
+          />
+          <Image
             id="brownie"
             src="/thumbnails/brownie.jpg"
             alt="Brownie"
@@ -123,16 +143,6 @@ export default function Home() {
             className="cursor-pointer"
             width={500}
             height={500}
-            tabIndex={0}
-            onClick={(e) => setSelectedImage(e.currentTarget.id)}
-          />
-          <Image
-            id="running"
-            src="/thumbnails/running.jpg"
-            alt="Running"
-            className="cursor-pointer"
-            width={300}
-            height={300}
             tabIndex={0}
             onClick={(e) => setSelectedImage(e.currentTarget.id)}
           />
