@@ -25,7 +25,7 @@ export default function About() {
             capture the moments and scenes that show up in his work.
           </p>
           <p>
-            Hi art is cartoonish with a level of realism, childlike but subtle,
+            His art is cartoonish with a level of realism, childlike but subtle,
             imbued with nostalgia and specificity, and attempts to capture the
             mundane but meaningful moments of life.
           </p>
