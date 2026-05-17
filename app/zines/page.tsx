@@ -3,7 +3,7 @@ import ScrollGallery, { type GalleryImage } from "../ui/scroll-gallery";
 const images: GalleryImage[] = [
   {
     id: "observations-zine",
-    src: "/images/observations-zine.jpg",
+    src: "/thumbnails/observations-zine.jpg",
     alt: "Observations Zine",
     width: 750,
     height: 750,
@@ -13,7 +13,7 @@ const images: GalleryImage[] = [
   },
   {
     id: "people-zine",
-    src: "/images/people-zine.jpg",
+    src: "/thumbnails/people-zine.jpg",
     alt: "People Zine",
     width: 700,
     height: 700,
@@ -23,7 +23,7 @@ const images: GalleryImage[] = [
   },
   {
     id: "lake-hemet-zine",
-    src: "/images/lake-hemet-zine.jpg",
+    src: "/thumbnails/lake-hemet-zine.jpg",
     alt: "Lake Hemet Zine",
     width: 550,
     height: 550,
@@ -33,7 +33,7 @@ const images: GalleryImage[] = [
   },
   {
     id: "internet-world-zine",
-    src: "/images/internet-world-zine.jpg",
+    src: "/thumbnails/internet-world-zine.jpg",
     alt: "Internet World Zine",
     width: 600,
     height: 600,
