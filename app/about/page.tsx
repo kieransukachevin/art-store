@@ -38,19 +38,29 @@ export default function About() {
             <strong>2025 - </strong>
             <i>Capitola Makers Market,</i> Capitola, CA
           </p>
+          <p>
+            <strong>2026 - </strong>
+            <i>Ontario Art Book Fair,</i> Ontario, CA
+          </p>
+          <p>
+            <strong>2026 - </strong>
+            <i>Renegade Craft Fair,</i> Los Angeles, CA
+          </p>
           <h2 className={`text-2xl ${ptSerif.className}`}>Showing</h2>
           <p>
             <strong>2026 - </strong>
             <i>Artlands,</i> Redlands, CA
           </p>
         </div>
-        <Image
-          src="/images/me.jpg"
-          alt="Me"
-          title="Doodler my whole life"
-          width={500}
-          height={500}
-        />
+        <div>
+          <Image
+            src="/images/me.jpg"
+            alt="Me"
+            title="Doodler my whole life"
+            width={500}
+            height={400}
+          />
+        </div>
       </div>
 
       <Divider />
@@ -61,14 +71,24 @@ export default function About() {
           <a href="mailto:kieran.sukachevin@gmail.com">
             kieran.sukachevin@gmail.com
           </a>
+          <Image
+            src="/images/ontario-booth.JPEG"
+            alt="Ontario Booth"
+            title="Ontario Booth"
+            width={500}
+            height={500}
+            className="mt-8"
+          />
         </div>
-        <Image
-          src="/images/adult-me.jpg"
-          alt="Adult Me"
-          title="Adult Me"
-          width={500}
-          height={500}
-        />
+        <div>
+          <Image
+            src="/images/renegade-booth.jpg"
+            alt="Renegade Booth"
+            title="Renegade Booth"
+            width={500}
+            height={500}
+          />
+        </div>
       </div>
     </div>
   );
