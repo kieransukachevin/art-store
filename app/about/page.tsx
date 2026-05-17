@@ -8,7 +8,7 @@ const ptSerif = PT_Serif({
 
 export default function About() {
   return (
-    <div className="space-y-4 p-2">
+    <main className="space-y-4 p-2 ml-56 mt-16">
       <div className="gap-4 mt-8 text-left md:block lg:flex ">
         <div className="space-y-4 w-[650px] max-w-full">
           <h2 className={`text-3xl ${ptSerif.className}`}>About</h2>
@@ -31,20 +31,20 @@ export default function About() {
           </p>
           <h2 className={`text-2xl ${ptSerif.className}`}>Events</h2>
           <p>
-            <strong>2025 - </strong>
-            <i>Joslyn Spring Craft Fair,</i> Redlands, CA
-          </p>
-          <p>
-            <strong>2025 - </strong>
-            <i>Capitola Makers Market,</i> Capitola, CA
+            <strong>2026 - </strong>
+            <i>Renegade Craft Fair,</i> Los Angeles, CA
           </p>
           <p>
             <strong>2026 - </strong>
             <i>Ontario Art Book Fair,</i> Ontario, CA
           </p>
           <p>
-            <strong>2026 - </strong>
-            <i>Renegade Craft Fair,</i> Los Angeles, CA
+            <strong>2025 - </strong>
+            <i>Capitola Makers Market,</i> Capitola, CA
+          </p>
+          <p>
+            <strong>2025 - </strong>
+            <i>Joslyn Spring Craft Fair,</i> Redlands, CA
           </p>
           <h2 className={`text-2xl ${ptSerif.className}`}>Showing</h2>
           <p>
@@ -90,6 +90,6 @@ export default function About() {
           />
         </div>
       </div>
-    </div>
+    </main>
   );
 }

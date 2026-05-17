@@ -26,8 +26,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSerif.variable} antialiased block h-screen `}>
-        <nav className="flex flex-col gap-6 mr-6 py-8 pl-10 md:fixed left-0 top-0 md:w-56">
+      <body className={`${geistSerif.variable} antialiased block h-screen`}>
+        <nav className="relative md:fixed top-0 left-0 flex flex-col gap-6 pl-10 py-8 w-56 z-[100]">
           <div>
             <Link href="/">
               <h1 className={`text-3xl ${ptSerif.className}`}>
@@ -45,10 +45,10 @@ export default function RootLayout({
               Art
             </Link>
             <Link
-              href="/store"
+              href="/zines"
               className="hover:text-gray-600 transition-all duration-100 cursor-pointer"
             >
-              Store
+              Zines
             </Link>
             <Link
               href="/about"
@@ -88,12 +88,10 @@ export default function RootLayout({
           </div>
         </nav>
 
-        <main className="flex-1 overflow-y-auto py-6 px-10 md:ml-56">
-          {children}
-        </main>
-      </body>
+        {children}
 
-      <Cart />
+        <Cart />
+      </body>
     </html>
   );
 }
