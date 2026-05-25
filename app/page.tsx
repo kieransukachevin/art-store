@@ -5,15 +5,29 @@ const images: GalleryImage[] = [
     id: "car-ride",
     src: "/thumbnails/car-ride.jpg",
     alt: "Car Ride",
-    width: 750,
-    height: 750
+    width: 800,
+    height: 800
+  },
+  {
+    id: "hiking-glow",
+    src: "/thumbnails/hiking-glow.jpg",
+    alt: "Hiking Glow",
+    width: 1000,
+    height: 1000
   },
   {
     id: "aquarium",
     src: "/thumbnails/aquarium.jpg",
     alt: "Aquarium",
-    width: 700,
-    height: 700
+    width: 800,
+    height: 800
+  },
+  {
+    id: "koda",
+    src: "/thumbnails/koda.jpg",
+    alt: "Koda",
+    width: 400,
+    height: 400
   },
   {
     id: "sunset-kitchen",
@@ -23,18 +37,11 @@ const images: GalleryImage[] = [
     height: 550
   },
   {
-    id: "grandma-with-walker",
-    src: "/thumbnails/grandma-with-walker.jpg",
-    alt: "Grandma with Walker",
-    width: 600,
-    height: 600
-  },
-  {
     id: "sunset-hike",
     src: "/thumbnails/sunset-hike.jpg",
     alt: "Sunset Hike",
-    width: 800,
-    height: 800
+    width: 900,
+    height: 900
   },
   {
     id: "I-10",
@@ -55,8 +62,8 @@ const images: GalleryImage[] = [
     id: "pool-hall",
     src: "/thumbnails/pool-hall.jpg",
     alt: "Pool Hall",
-    width: 600,
-    height: 600
+    width: 500,
+    height: 500
   },
   {
     id: "campfire",
@@ -70,15 +77,15 @@ const images: GalleryImage[] = [
     id: "glass-house",
     src: "/thumbnails/glass-house.jpg",
     alt: "Glass House",
-    width: 600,
-    height: 600
+    width: 700,
+    height: 700
   },
   {
     id: "tent",
     src: "/thumbnails/tent.jpg",
     alt: "Tent",
-    width: 500,
-    height: 500
+    width: 400,
+    height: 400
   },
 
   {
@@ -99,6 +106,13 @@ const images: GalleryImage[] = [
     id: "surfing-guy",
     src: "/thumbnails/surfing-guy.jpg",
     alt: "Surfing Guy",
+    width: 600,
+    height: 600
+  },
+  {
+    id: "grandma-with-walker",
+    src: "/thumbnails/grandma-with-walker.jpg",
+    alt: "Grandma with Walker",
     width: 600,
     height: 600
   }
